@@ -40,3 +40,18 @@ Lista de tarefas: (ordenada)
 ![AUU AUU!](https://pipz.com/static/images/blog/eddie.png)
 
 ![Cachorrinho](https://pipz.com/static/images/blog/eddie.png)
+
+Este é um método `console.log()` do javascript.
+
+```javascript
+function selecionaElemento() {
+  const body = document.querySelector('body');
+}
+
+```
+
+Frutas | Doces | Salgados
+:-------|:-------:|---------:
+banana | chocolate | coxinha
+maçã  | bala juquinha | esfiha
+uva   |  bombom | tapioka 
