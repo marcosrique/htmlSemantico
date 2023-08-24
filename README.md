@@ -8,7 +8,7 @@ Texto em __negrito__ com underscore duplo(underline).
 
 Texto em *itálico* com asteriscos.
 
-Texto em _itálico_ com underscore(underline = linha baixa).
+Texto em _itálico_ com underscore(underline = linha).
 
 [Google Brasil](https://google.com.br)
 
