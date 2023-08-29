@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <style>
+        blockquote {
+            margin-left: 0;
+        }
+
+        details>summary {
+            padding: 4px;
+            width: 200px;
+            background-color: #eeeeee;
+            border: none;
+            box-shadow: 1px 1px 2px #bbbbbb;
+            cursor: pointer;
+        }
+
+        details>p {
+            background-color: #eeeeee;
+            padding: 4px;
+            margin: 0;
+            box-shadow: 1px 1px 2px #bbbbbb;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#HTML-semantico">Introdução</a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h1>O que são tags semânticas?</h1>
+            <p>
+                Elementos semânticos equivalem a elementos com significado. Os elementos &lt;div&gt; e &lt;span&gt; são
+                exemplos de tags que não tem significado semântico nenhum. Já &lt;form&gt;, &lt;table&gt; e
+                &lt;article&gt; são exemplos de tags semânticas com significado.
+            </p>
+            <h1>Elementos semânticos em HTML</h1>
+            <p>
+                Os elementos semânticos podem dar significados a tags que não tem significado, exemplo: &lt;div
+                id="nav"&gt;, &lt;div class="header" e &lt;div id="footer"&gt;
+                Com elementos semânticos podemos usar para definir diferentes partes de um site web:
+            <figure>
+                <img src="imagens/img_1.png" alt="img_1" style="width: 30%;">
+                <figcaption>Página Semântica</figcaption>
+            </figure>
+            </p>
+
+        </article>
+
+        <main>
+            <h2>Outras Seções</h2>
+
+            <section>
+
+                <aside>
+                    <p>
+                        Tag &lt;main&gt; - Definição: O conteúdo dentro da &lt;main&gt; deve ser exclusivo do documento.
+                        Não deve conter nenhum conteúdo repetido em documentos, como barras laterais, links de
+                        navegação, informações de direitos autorais, logotipos de sites e formulários de pesquisa. Não
+                        deve ter mais de um &lt;main&gt; em um documento.
+                    </p>
+                    <p>
+                        O &lt;main&gt; não deve ser descendente de um elemento &lt;articls&gt;, &lt;aside&gt;,
+                        &lt;footer&gt;, &lt;header&gt; ou &lt;nav&gt;.
+                    </p>
+
+                    <blockquote>
+                        <cite>https://www.w3schools.com/tags/tag_blockquote.asp</cite>
+                        &lt;cite&gt; tag define o título de um trabalho criativo (por exemplo, um livro, um poema, uma
+                        música, um filme, uma pintura, uma escultura, etc.)
+                        Nota: O nome de uma pessoa não é o título de uma obra. O texto no &lt;cite&gt; geralmente é
+                        redenrizado em italico.
+                        &lt;blockquote&gt; tag especifica seção citada em outra fonte.
+                    </blockquote>
+
+                    <footer>
+                        <p>Rodapé da Seção 1</p>
+                    </footer>
+
+                </aside>
+
+            </section>
+
+            <aside>
+                <details>
+
+                    <summary>
+                    &lt;datails&gt; essa  tag especifica detalhes adicionais que o usuário pode abrir e fechar sob demanda. A &lt;datails&gt; tag é frequentemente usada para criar um widget interativo que o usuário pode abrir e fechar. Por padrão, o widget está fechado. Quando aberto, ele se expande e exibe o conteúdo contido nele. Qualquer tipo de conteúdo pode ser colocado dentro da &lt;datails&gt; tag.
+                    Dica: A tag  &lt;summary&gt; é usada em conjunto com &lt;datails&gt; para especificar um cabeçalho visível para os detalhes.
+                    </summary>
+
+                    &lt;datails&gt; essa  tag especifica detalhes adicionais que o usuário pode abrir e fechar sob demanda. A &lt;datails&gt; tag é frequentemente usada para criar um widget interativo que o usuário pode abrir e fechar. Por padrão, o widget está fechado. Quando aberto, ele se expande e exibe o conteúdo contido nele. Qualquer tipo de conteúdo pode ser colocado dentro da &lt;datails&gt; tag.
+                    Dica: A tag  &lt;summary&gt; é usada em conjunto com &lt;datails&gt; para especificar um cabeçalho visível para os detalhes.
+                </details>
+                <footer>
+                    <p>
+                        Rodapé da Section 2
+                    </p>                    
+                </footer>
+            </aside>
+
+            <section>
+
+                <p>
+                    <strong>A tag &lt;strong&gt; é usada para definir textos de grande importância. O conteúdo interno normalmente é exibido em negrito.</strong>
+                    <b>Use a tag &lt;b&gt; para especificar texto em negrito sem qualquer importância extra!</b>
+                </p>
+                <p>
+                    <del>
+                        A &lt;del&gt; tag define o texto que foi excluído de um documento. Os navegadores geralmente traçam uma linha no texto excluído.
+                    </del>
+
+                    <ins>
+                        A tag &lt;ins&gt; define um texto que foi inserido em um documento. Os navegadores geralmente sublinham o texto inserido.
+                    </ins>
+
+                    <em>
+                        A tag  &lt;ins&gt; é usada para definir o texto enfatizado. O conteúdo interno normalmente é exibido em itálico .
+                    </em>
+                    
+                </p>
+
+                <p>
+                    A &lt;sub&gt; tag define o texto subscrito. O texto subscrito aparece meio caractere abaixo da linha normal e às vezes é renderizado em uma fonte menor. O texto subscrito pode ser usado para fórmulas químicas, como H<sub>2</sub>O
+                </p>
+
+                <p>
+                    A tag &lt;sup&gt; define texto sobrescrito. O texto sobrescrito aparece meio caractere acima da linha normal e às vezes é renderizado em uma fonte menor. Texto sobrescrito pode ser usado para notas de rodapé, como WWW<sup>[1]</sup>
+                </p>
+
+                <footer>
+                    Rodapé da Section 3
+                </footer>
+
+            </section>
+
+            
+
+        </main>
+    </section>
+
+</body>
+
+</html>
