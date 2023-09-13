@@ -56,6 +56,28 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #952323;
+    font: 1.2em sans-serif;
+    font-weight: bold;
+    padding: 20px;
     display: inline-block;
 }
+
+#menu-h ul li a:link, a:visited, a:active {
+    text-decoration: underline;
+    
+}
+
+#menu-h ul li a:hover {
+    text-decoration: underline;
+    color: #E25E3E;
+}
+
+
+
+
