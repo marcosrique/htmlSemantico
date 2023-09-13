@@ -55,3 +55,7 @@ p {
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav {
+    display: inline-block;
+}
