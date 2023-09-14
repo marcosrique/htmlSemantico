@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./reset.css">
     <style>
+        body {
+    margin: 20px 50px; 
+    background-color: #F2E8C6;   
+}
         blockquote {
             margin-left: 0;
+            background-color: #952323;
+            border-radius: 10px;
+            padding: 10px;
         }
 
         details>summary {
@@ -26,33 +34,81 @@
             box-shadow: 1px 1px 2px #bbbbbb;
         }
 
-        #nav-ha ul li {
-            display: inline;
+        p {
+            line-height: 1.2;
+            text-align: justify;
+            margin-bottom: 10px;
         }
 
-        #nav-ha ul li a {
-            display: inline;
-            text-decoration: none;
-        }
-
-        #menu-ha ul li a {
-            color: #952323;
-            font: 1.2em sans-serif;
-            font-weight: bold;
+        .paragrafo-de-artigo {
+            background-color: #FFBB5C;
+            color:aliceblue;
             padding: 20px;
-            display: inline-block;
-            text-decoration: none;
+            border-radius: 20px;
         }
 
-        #menu-ha ul li a:link, a:visited, a:active {
-            text-decoration: underline;
-            
+        .titulo-de-pagina {
+            color: #C63D2F;
+            line-height: 2;
+            font-weight: bold;
+            font-size: 24pt;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
-        #menu-ha ul li a:hover {
-            text-decoration: underline;
+        .subtitulo-de-pagina {
             color: #E25E3E;
+            line-height: 1.5;
+            font-weight: bold;
+            font-size: 20pt; 
+            font-family: Arial, Helvetica, sans-serif;
         }
+
+        .titulo-de-artigo {
+            color: #ce8d33;
+            line-height: 2;
+            font-weight: bold;
+            font-size: 16pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    .titulo-da-secao {
+        color: #FFBB5C;
+        line-height: 1,5;
+        font-weight: bold;
+        font-size: 16pt;  
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .autor-do-artigo {
+        color: darkgray;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }    
+
+            #menu-ha ul li {
+                display: inline;
+                
+            }
+
+            #menu-ha ul li a {
+                color: #952323;
+                font: 1.2em sans-serif;
+                font-weight: bold;
+                padding: 20px;
+                display: inline-block;
+            }
+
+            #menu-ha ul li a:link, a:visited, a:active {
+                text-decoration: underline;
+                
+            }
+
+            #menu-ha ul li a:hover {
+                text-decoration: underline;
+                color: #E25E3E;
+            }
     </style>
 </head>
 
@@ -67,13 +123,13 @@
                     <a href="#HTML-semantico">Introdução</a>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="#">#</a>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="#">#</a>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="#">#</a>
                 </li>
             </ul>
         </nav>
@@ -81,7 +137,7 @@
 
     <section>
         <article>
-            <h1>O que são tags semânticas?</h1>
+            <h1 class="titulo-de-pagina">O que são tags semânticas?</h1>
             <p>
                 Elementos semânticos equivalem a elementos com significado. Os elementos &lt;div&gt; e &lt;span&gt; são
                 exemplos de tags que não tem significado semântico nenhum. Já &lt;form&gt;, &lt;table&gt; e
