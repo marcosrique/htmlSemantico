@@ -9,18 +9,27 @@ p {
     margin-bottom: 10px;
 }
 
+
+
+
 .paragrafo-de-artigo {
     background-color: #FFBB5C;
     color:aliceblue;
     padding: 20px;
-    border-radius: 20px;
     margin: 0;
 
 }
 
-.paragrafo-de-artigo~ .paragrafo-de-artigo {
+.paragrafo-de-artigo ~ p {
     padding-top: 0;
 }
+
+.autor-do-artigo + .paragrafo-de-artigo{
+    border-radius: 20px 20px 0 0;
+}
+
+
+
 
 .titulo-de-pagina {
     color: #C63D2F;
