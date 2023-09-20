@@ -24,7 +24,7 @@ p {
     padding-top: 0;
 }
 
-.autor-do-artigo + .paragrafo-de-artigo{
+.autor-do-artigo+.paragrafo-de-artigo{
     border-radius: 20px 20px 0 0;
 }
 
